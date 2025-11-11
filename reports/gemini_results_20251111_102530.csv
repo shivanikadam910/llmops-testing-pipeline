@@ -1,0 +1,57 @@
+id,prompt,expected,actual,safe,relevance,correctness,result
+1,Summarize the benefits of using electric vehicles in India.,"should mention ""environment"" or ""pollution"" or ""cost saving""","Electric Vehicles (EVs) offer a range of significant benefits for India, addressing critical environmental, economic, and strategic challenges:
+
+1.  **Improved Air Quality:** EVs produce zero tailpipe emissions, directly helping to combat India's severe urban air pollution crisis, which contributes to respiratory diseases and other health issues. This is a major public health benefit.
+
+2.  **Lower Running Costs:** Electricity is significantly cheaper per kilometer than petrol or diesel, especially with high fuel taxes in India. This translates to substantial savings for consumers and commercial operators (e.g., taxi fleets, delivery services, auto-rickshaws), making EVs highly attractive for daily commuting and logistics.
+
+3.  **Reduced Maintenance:** EVs have fewer moving parts than internal combustion engine (ICE) vehicles, leading to lower maintenance requirements and costs over their lifespan.
+
+4.  **Reduced Crude Oil Imports:** India is a major importer of crude oil, which strains its foreign exchange reserves and makes its economy vulnerable to global oil price fluctuations. Widespread EV adoption can significantly cut this import bill, strengthening the rupee and enhancing energy security.
+
+5.  **Government Incentives & Subsidies:** The Indian government, through schemes like FAME II (Faster Adoption and Manufacturing of Electric Vehicles), offers subsidies, tax benefits, and waivers on registration fees and road tax, making EVs more affordable upfront.
+
+6.  **Noise Reduction:** EVs are significantly quieter than ICE vehicles, contributing to reduced noise pollution in bustling Indian cities.
+
+7.  **Contribution to Climate Goals:** While India's electricity grid still relies heavily on coal, EVs, even with the current energy mix, often have a lower lifecycle carbon footprint than ICE vehicles. As India transitions to more renewable energy sources for power generation, the environmental benefits of EVs will only increase.
+
+8.  **Job Creation and Manufacturing Boost:** The growing EV ecosystem in India is fostering investment in manufacturing, battery production, charging infrastructure development, and related services, creating new jobs and boosting the domestic industry.
+
+9.  **Enhanced Energy Security:** By shifting from imported fossil fuels to domestically generated electricity (increasingly from renewable sources), India can enhance its energy independence and security.
+
+10. **Modernization of Transport Infrastructure:** The push for EVs is accelerating the development of advanced charging infrastructure, smart grid technologies, and digital platforms for mobility, modernizing India's transport sector.
+
+In essence, EVs offer a pathway to a cleaner, more sustainable, economically stable, and technologically advanced transportation future for India.",YES,5.0,5.0,PASS
+2,Extract the city name from this text: 'I have a meeting in Bengaluru next week.',"should return or mention ""Bengaluru""",Bengaluru,YES,1.0,1.0,PASS
+3,Rephrase this sentence in a more formal tone: 'I wanna know if my order will arrive soon.',"should sound polite or formal and mention ""order"" or ""delivery""","Here are several ways to rephrase that sentence in a more formal tone, ranging from polite to very formal:
+
+**Standard Formal:**
+
+*   ""I would like to inquire about the estimated arrival time of my order.""
+*   ""Could you please provide an update on my order's delivery status?""
+*   ""I would appreciate knowing when my order is expected to arrive.""
+
+**More Formal:**
+
+*   ""I wish to ascertain the anticipated delivery date for my order.""
+*   ""Kindly inform me regarding the delivery schedule for my order.""
+
+**Very Formal (often used in written correspondence):**
+
+*   ""I am writing to request information regarding the estimated arrival of my order.""
+*   ""Please advise on the projected delivery timeline for my order.""",YES,1.0,1.0,PASS
+4,If a train leaves Delhi at 6:00 AM and travels for 5 hours at an average speed of 80 km/h, what time will it reach?,"Okay, let's break down the journey:
+
+1.  **Departure Time:** 6:00 AM
+2.  **Travel Duration:** 5 hours
+3.  **Average Speed:** 80 km/h
+
+Here's what we can determine:
+
+*   **Arrival Time:** 6:00 AM + 5 hours = **11:00 AM**
+*   **Distance Traveled:** Speed × Time = 80 km/h × 5 hours = **400 km**
+
+So, the train would have traveled 400 km and would arrive at its destination (or the end of its 5-hour journey) at 11:00 AM.",YES,1.0,1.0,PASS
+5,Classify this feedback as Positive, Negative,"No, this feedback is **not positive**.
+
+It points out a deficiency or an area that needs correction (incorrect spelling). It would be classified as **negative** or **constructive** feedback.",YES,1.0,1.0,PASS

@@ -1,0 +1,6 @@
+id,prompt,expected_output
+1,Summarize the benefits of using electric vehicles in India.,should mention "environment" or "pollution" or "cost saving"
+2,Extract the city name from this text: 'I have a meeting in Bengaluru next week.',should return or mention "Bengaluru"
+3,Rephrase this sentence in a more formal tone: 'I wanna know if my order will arrive soon.',should sound polite or formal and mention "order" or "delivery"
+4,If a train leaves Delhi at 6:00 AM and travels for 5 hours at an average speed of 80 km/h, what time will it reach?,should calculate arrival time around 11:00 AM or mention 5 hours later
+5,Classify this feedback as Positive, Negative, or Neutral: 'The customer service was very slow and unhelpful.',should classify as "Negative"
