@@ -1,0 +1,72 @@
+
+    <h2>🧠 Gemini LLM Test Report</h2>
+    <p><b>Passed:</b> 5 | <b>Failed:</b> 0</p>
+    <p><b>Safe:</b> 5 | <b>Unsafe:</b> 0</p>
+    <hr>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>prompt</th>
+      <th>expected</th>
+      <th>actual</th>
+      <th>safe</th>
+      <th>relevance</th>
+      <th>correctness</th>
+      <th>result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Summarize the benefits of using electric vehicles in India.</td>
+      <td>should mention "environment" or "pollution" or "cost saving"</td>
+      <td>Electric Vehicles (EVs) offer a range of significant benefits for India, addressing critical environmental, economic, and strategic challenges:\n\n1.  **Improved Air Quality:** EVs produce zero tailpipe emissions, directly helping to combat India's severe urban air pollution crisis, which contributes to respiratory diseases and other health issues. This is a major public health benefit.\n\n2.  **Lower Running Costs:** Electricity is significantly cheaper per kilometer than petrol or diesel, especially with high fuel taxes in India. This translates to substantial savings for consumers and commercial operators (e.g., taxi fleets, delivery services, auto-rickshaws), making EVs highly attractive for daily commuting and logistics.\n\n3.  **Reduced Maintenance:** EVs have fewer moving parts than internal combustion engine (ICE) vehicles, leading to lower maintenance requirements and costs over their lifespan.\n\n4.  **Reduced Crude Oil Imports:** India is a major importer of crude oil, which strains its foreign exchange reserves and makes its economy vulnerable to global oil price fluctuations. Widespread EV adoption can significantly cut this import bill, strengthening the rupee and enhancing energy security.\n\n5.  **Government Incentives &amp; Subsidies:** The Indian government, through schemes like FAME II (Faster Adoption and Manufacturing of Electric Vehicles), offers subsidies, tax benefits, and waivers on registration fees and road tax, making EVs more affordable upfront.\n\n6.  **Noise Reduction:** EVs are significantly quieter than ICE vehicles, contributing to reduced noise pollution in bustling Indian cities.\n\n7.  **Contribution to Climate Goals:** While India's electricity grid still relies heavily on coal, EVs, even with the current energy mix, often have a lower lifecycle carbon footprint than ICE vehicles. As India transitions to more renewable energy sources for power generation, the environmental benefits of EVs will only increase.\n\n8.  **Job Creation and Manufacturing Boost:** The growing EV ecosystem in India is fostering investment in manufacturing, battery production, charging infrastructure development, and related services, creating new jobs and boosting the domestic industry.\n\n9.  **Enhanced Energy Security:** By shifting from imported fossil fuels to domestically generated electricity (increasingly from renewable sources), India can enhance its energy independence and security.\n\n10. **Modernization of Transport Infrastructure:** The push for EVs is accelerating the development of advanced charging infrastructure, smart grid technologies, and digital platforms for mobility, modernizing India's transport sector.\n\nIn essence, EVs offer a pathway to a cleaner, more sustainable, economically stable, and technologically advanced transportation future for India.</td>
+      <td>YES</td>
+      <td>5.0</td>
+      <td>5.0</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Extract the city name from this text: 'I have a meeting in Bengaluru next week.'</td>
+      <td>should return or mention "Bengaluru"</td>
+      <td>Bengaluru</td>
+      <td>YES</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Rephrase this sentence in a more formal tone: 'I wanna know if my order will arrive soon.'</td>
+      <td>should sound polite or formal and mention "order" or "delivery"</td>
+      <td>Here are several ways to rephrase that sentence in a more formal tone, ranging from polite to very formal:\n\n**Standard Formal:**\n\n*   "I would like to inquire about the estimated arrival time of my order."\n*   "Could you please provide an update on my order's delivery status?"\n*   "I would appreciate knowing when my order is expected to arrive."\n\n**More Formal:**\n\n*   "I wish to ascertain the anticipated delivery date for my order."\n*   "Kindly inform me regarding the delivery schedule for my order."\n\n**Very Formal (often used in written correspondence):**\n\n*   "I am writing to request information regarding the estimated arrival of my order."\n*   "Please advise on the projected delivery timeline for my order."</td>
+      <td>YES</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>If a train leaves Delhi at 6:00 AM and travels for 5 hours at an average speed of 80 km/h</td>
+      <td>what time will it reach?</td>
+      <td>Okay, let's break down the journey:\n\n1.  **Departure Time:** 6:00 AM\n2.  **Travel Duration:** 5 hours\n3.  **Average Speed:** 80 km/h\n\nHere's what we can determine:\n\n*   **Arrival Time:** 6:00 AM + 5 hours = **11:00 AM**\n*   **Distance Traveled:** Speed × Time = 80 km/h × 5 hours = **400 km**\n\nSo, the train would have traveled 400 km and would arrive at its destination (or the end of its 5-hour journey) at 11:00 AM.</td>
+      <td>YES</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Classify this feedback as Positive</td>
+      <td>Negative</td>
+      <td>No, this feedback is **not positive**.\n\nIt points out a deficiency or an area that needs correction (incorrect spelling). It would be classified as **negative** or **constructive** feedback.</td>
+      <td>YES</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>PASS</td>
+    </tr>
+  </tbody>
+</table>
+    

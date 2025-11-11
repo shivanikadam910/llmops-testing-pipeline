@@ -1,0 +1,12 @@
+# --- Core Gemini API ---
+google-generativeai==0.8.2     # Official Google Gemini SDK (for model calls)
+
+# --- Data Handling & Reporting ---
+pandas==2.2.3                  # For CSV and HTML report generation
+
+# --- Environment & Config Management ---
+python-dotenv==1.0.1           # For loading GEMINI_API_KEY from .env
+
+# --- Optional (Recommended for smooth runs) ---
+tqdm==4.66.5                   # Progress bars (for long test runs)
+requests==2.32.3               # Network stability (used internally)
