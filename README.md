@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+#### 📌 Overview
 
 This project demonstrates how to **automate LLM testing and evaluation** using **Google Gemini models**
 
@@ -20,24 +20,6 @@ It’s designed as a **mini LLMOps pipeline** that continuously tests an LLM (li
 | **Automated Reporting** | Generates timestamped result files (CSV / HTML) with scores and pass/fail status. |
 
 ---
-
-llmops-testing-pipeline/
-│
-├── config/
-│   └── .env                     # Stores GEMINI_API_KEY
-│
-├── data/
-│   └── test_prompts.csv         # Test dataset (prompts + expected outputs)
-│
-├── src/
-│   ├── llm_model.py             # Sends prompts to Gemini (model under test)
-│   ├── model_evaluator.py       # Gemini-as-judge evaluation logic
-│   ├── safety_checker.py        # Safety moderation via Gemini
-│   ├── report_generator.py      # Generates report files
-│   └── llm_test_runner.py       # Main orchestrator for test execution
-│
-├── requirements.txt
-└── README.md
 
 ⚙️ Installation & Setup
 1. Clone the repository
